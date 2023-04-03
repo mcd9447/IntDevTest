@@ -22,6 +22,10 @@ public class PlayerControl : MonoBehaviour
         {
             newPos.x -= speed;
         }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            newPos.x += speed;
+        }
 
         Debug.Log(newPos.x);
 

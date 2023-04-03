@@ -182,7 +182,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.6273585, b: 0.6273585, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -243,7 +243,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.6603774, g: 0.49528304, b: 0.65132475, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -341,6 +341,18 @@ PrefabInstance:
     - target: {fileID: 347674651588993339, guid: f3ec41250efd04557ba42a69458edca0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548216818229836716, guid: f3ec41250efd04557ba42a69458edca0, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548216818229836716, guid: f3ec41250efd04557ba42a69458edca0, type: 3}
+      propertyPath: m_Color.g
+      value: 0.88124746
+      objectReference: {fileID: 0}
+    - target: {fileID: 3548216818229836716, guid: f3ec41250efd04557ba42a69458edca0, type: 3}
+      propertyPath: m_Color.r
+      value: 0.740566
       objectReference: {fileID: 0}
     - target: {fileID: 5612253960871368312, guid: f3ec41250efd04557ba42a69458edca0, type: 3}
       propertyPath: m_Name
